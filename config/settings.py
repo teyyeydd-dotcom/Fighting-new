@@ -6,8 +6,8 @@ load_dotenv()
 load_dotenv("env")
 
 # ==================== TELEGRAM CONFIGURATION ====================
-API_ID = int(os.getenv("API_ID", "34979297") or "34979297")
-API_HASH = os.getenv("API_HASH", "0e45dd9855674f34f91705734d7642b4") or "0e45dd9855674f34f91705734d7642b4"
+API_ID = int(os.getenv("API_ID", "30434687") or "30434687")
+API_HASH = os.getenv("API_HASH", "d4adb52774efd1cbbbebdfc1647b4ee9") or "d4adb52774efd1cbbbebdfc1647b4ee9"
 
 _PLACEHOLDER_TOKENS = {
     "",
