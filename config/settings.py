@@ -16,7 +16,7 @@ _PLACEHOLDER_TOKENS = {
     "your-bot-token",
     "YOUR_BOT_TOKEN",
 }
-_DEFAULT_BOT_TOKEN = "8512231180:AAHwMIOnlQtW_qgpth-9jOH5KyjtL6bfWqk"
+_DEFAULT_BOT_TOKEN = "9188263783:AAGZDIMXswba_9nP4ioQmDZ7ZbJWrPKDHXw"
 _raw_bot_token = (os.getenv("BOT_TOKEN", "") or "").strip().strip('"').strip("'")
 if (
     (not _raw_bot_token)
@@ -27,11 +27,11 @@ if (
 else:
     BOT_TOKEN = _raw_bot_token
 
-SUDO_USERS = [int(x.strip()) for x in os.getenv("SUDO_USERS", "8841848847,7450385463,6562455506,8608113180").split(",") if x.strip()]
+SUDO_USERS = [int(x.strip()) for x in os.getenv("SUDO_USERS", "7795080978,8934543680,5498096445,6562455506").split(",") if x.strip()]
 
 ASSISTANT_SESSION = (os.getenv("ASSISTANT_SESSION", "") or "").strip()
 
-LOG_CHAT_ID = int(os.getenv("LOG_CHAT_ID", "-1004318913888") or "-1004318913888")
+LOG_CHAT_ID = int(os.getenv("LOG_CHAT_ID", "-1004471647485") or "-1004471647485")
 
 # ==================== AUDIO CONFIGURATION ====================
 DEFAULT_RADIO_URL = os.getenv("DEFAULT_RADIO_URL", "https://ice1.somafm.com/groovesalad-128-mp3")
