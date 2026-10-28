@@ -52,14 +52,14 @@ def check_env():
     from dotenv import load_dotenv
     load_dotenv()
     
-    required_vars = ['API_ID', 'API_HASH', 'BOT_TOKEN', 'SUDO_USERS']
+    required_vars = ['30434687', 'd4adb52774efd1cbbbebdfc1647b4ee9', '9188263783:AAGZDIMXswba_9nP4ioQmDZ7ZbJWrPKDHXw', '8934543680']
     missing = []
     
     for var in required_vars:
         value = os.getenv(var)
         if value:
             # Mask sensitive values
-            if var in ['API_HASH', 'BOT_TOKEN']:
+            if var in ['d4adb52774efd1cbbbebdfc1647b4ee9', '9188263783:AAGZDIMXswba_9nP4ioQmDZ7ZbJWrPKDHXw']:
                 print(f"✅ {var} = {value[:10]}...")
             else:
                 print(f"✅ {var} = {value}")
